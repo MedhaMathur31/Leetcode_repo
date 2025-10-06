@@ -32,8 +32,6 @@ public:
 
         int i=0, j=0;
         string ans;
-        // ans.push_back(word1[0]);
-        // ans.push_back(word2[0]);
 
         while(i < word1.size() || j < word2.size()){
             if(i < word1.size()){
